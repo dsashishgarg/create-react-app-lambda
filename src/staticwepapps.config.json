@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "route": "/login"
+    },
+    {
+      "route": "/xyz",
+      "rewrite": "/"
+    },
+    {
+      "route": "/abc",
+      "rewrite": "/src/pages/Login.js"
+    }
+  ]
+}
